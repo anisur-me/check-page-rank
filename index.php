@@ -41,7 +41,7 @@ echo "<h1>Page Rank of ".$_POST['s']."  is <span style='color:red'> 0 </span></h
 </div>
 
 	<form action="" method="post" class="inputform">
-	<input type="text" name="captcha" placeholder="Enter the code" class="captcha_form"><span style="background:url(images/back.gif);width:450px;height:200px;padding:10px;color:#CCC;margin-left:5px;font-size:20px;font-width:700;font-family: 'Chewy', cursive;"><?php echo $rand=rand() ;?></span><br>
+	<input type="text" name="captcha" placeholder="Enter the code" class="captcha_form"><span class="captcha_num"><?php echo $rand=rand() ;?></span><br>
 	<input type="hidden" name="rand" class="inputfield" value='<?php echo $rand;?>'>
 	<input type="text" name="s" class="inputfield" >
 	<input type="submit" name="submit" class="submitbutton"  value="Check Domain">
