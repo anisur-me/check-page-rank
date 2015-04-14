@@ -8,8 +8,7 @@
   <link rel="icon" href="">
   <link rel="stylesheet" type="text/css" media="all" href="styles.css">
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Chewy' rel='stylesheet' type='text/css'>
+ <link href='http://fonts.googleapis.com/css?family=Chewy' rel='stylesheet' type='text/css'>
   
 </head>
 
@@ -27,7 +26,7 @@
 	if(isset($_POST['submit'])){
 	if($_POST['captcha']==$_POST['rand'])
 	{
-include("php/pagerank.php");
+include("pagerank.php");
 $pagerank = get_google_page_rank($_POST['s']);
 if($pagerank!="")
 echo "<h1>Page Rank of ".$_POST['s']."  is <span style='color:red'> " . $pagerank . "</span></h1>\n";
