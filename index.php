@@ -6,7 +6,7 @@
   <meta name="author" content="Anisur">
   <link rel="shortcut icon" href="">
   <link rel="icon" href="">
-  <link rel="stylesheet" type="text/css" media="all" href="styles.css">
+  <link rel="stylesheet" type="text/css" media="all" href="style.css">
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
  <link href='http://fonts.googleapis.com/css?family=Chewy' rel='stylesheet' type='text/css'>
   
